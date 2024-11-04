@@ -5,7 +5,7 @@ import socket  # Módulo para obter informações do servidor
 app = Flask(__name__,
             static_url_path='', 
             static_folder='static',
-            template_folder='templates')
+            template_folder='template')
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
